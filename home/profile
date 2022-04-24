@@ -1,0 +1,13 @@
+export PS1="-> "
+export LESSHISTFILE="-"
+export EDITOR="vim"
+export PATH=$PATH:$HOME/.local/bin/
+export HISTFILE=$HOME/.config/shell/history
+export XAUTHORITY="$XDG_CONFIG_HOME/x11/Xauthority"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_RUNTIME_DIR=/run/user/$(id -u)
+export GPG_TTY=$(tty)
+
+printf 'start X?'
+! read -r || exec startx ~/.config/x11/xinitrc
+
