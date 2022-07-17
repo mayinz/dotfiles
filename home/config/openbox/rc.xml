@@ -11,7 +11,6 @@
   <theme>
     <name>sample</name>
     <titleLayout/>
-    <cornerRadius>15</cornerRadius>
     <keepBorder>no</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
