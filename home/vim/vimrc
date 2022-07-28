@@ -22,6 +22,7 @@ set ignorecase
 set clipboard=unnamedplus
 set sts=2 sw=2 expandtab 
 set wildmenu
+set textwidth=80 
 set confirm
 colorscheme wal
 set background=dark
